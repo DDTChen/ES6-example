@@ -14,34 +14,29 @@
    https://babeljs.io/docs/learn-es2015/#let-const
    https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/let
 
-4. Arrows and Lexical This
+4. Arrows and Lexical This<BR>
    => 是一個簡化宣告function的寫法，其實在許多的語言都已經有支援了。<BR>
    好處是可以讓程式碼更簡潔，也不用擔心this的問題；當然，要先習慣看這種寫法才行。<BR>
    https://babeljs.io/docs/learn-es2015/#arrows-and-lexical-this
 
-5. Promises
-   當需要呼叫許多非同步的功能時，常常會遇到惡魔金字塔(Pyramid of Doom)的窘境如下：
-   function(
-        {},
-        function(
-            {},
-            function() {
-                {},
-                function...
-            }
-        ) {
-
-        }    
-    );
-        改成
-    function（）
-    .then ()
-    .then ()
-    ...
-    提升程式碼可看性
+5. Promises<BR>
+   當需要呼叫許多非同步的功能時，常常會遇到惡魔金字塔(Pyramid of Doom)的窘境如下：<BR>
+   function (<BR>
+      function (<BR>
+         function (<BR>
+            ...   <BR>
+         )<BR>
+      )<BR>
+   );<BR>
+        改成<BR>
+    function（）<BR>
+    .then ()<BR>
+    .then ()<BR>
+    ...<BR>
+    提升程式碼可看性<BR>
    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
    https://babeljs.io/docs/learn-es2015/#promises
    
-6. Template Strings
+6. Template Strings<BR>
    可以用變數直接加到字串內，不需要再用字串連接的方式了。<BR>
    https://babeljs.io/docs/learn-es2015/#template-strings
