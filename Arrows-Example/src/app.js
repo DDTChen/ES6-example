@@ -49,12 +49,6 @@ console.log(result3);
 console.log('------ Array map use arrow function ------');
 console.log(result4);
 
-// Statement bodies
-// nums.forEach(v => {
-//   if (v % 5 === 0)
-//     fives.push(v);
-// });
-
 // Lexical this
 var Book = {
     _name: "Holiday",
