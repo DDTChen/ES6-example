@@ -9,6 +9,11 @@
    https://babeljs.io/docs/learn-es2015/#classes
    
 3. Let + Const
+   javascript原來宣告變數的var的有效範圍達整個function(如果在function內的話)，
+   let可以讓所宣告的變數有效範圍侷限在大括號內，而const則是增加了常數定義的功能
+https://babeljs.io/docs/learn-es2015/#let-const
+https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/let
+
 4. Arrows and Lexical This
 5. Promises
 6. Template Strings
