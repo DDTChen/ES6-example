@@ -20,4 +20,28 @@
    https://babeljs.io/docs/learn-es2015/#arrows-and-lexical-this
 
 5. Promises
+   當需要呼叫許多非同步的功能時，常常會遇到惡魔金字塔(Pyramid of Doom)的窘境如下：
+   function(
+        {},
+        function(
+            {},
+            function() {
+                {},
+                function...
+            }
+        ) {
+
+        }    
+    );
+        改成
+    function（）
+    .then ()
+    .then ()
+    ...
+    提升程式碼可看性
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+   https://babeljs.io/docs/learn-es2015/#promises
+   
 6. Template Strings
+   可以用變數直接加到字串內，不需要再用字串連接的方式了。<BR>
+   https://babeljs.io/docs/learn-es2015/#template-strings
