@@ -17,4 +17,3 @@ https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/let
 4. Arrows and Lexical This
 5. Promises
 6. Template Strings
-7. Array.prototype.map() + Array.prototype.reduce()
