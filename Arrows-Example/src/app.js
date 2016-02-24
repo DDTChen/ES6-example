@@ -8,7 +8,7 @@ var result1 = data.map(
     }
 );
 
-// arrow function
+// write upper function by arrow function
 var result2 = data.map(v => v + 1);
 
 console.log('------ Array map use normal function ------');
@@ -31,7 +31,7 @@ var result3 = data.reduce(
     0
 );
 
-// arrow function
+// write upper function by arrow function
 var result4 = data.reduce(
     (previousValue, currentValue, currentIndex, array) => {
         if (currentIndex % 2 == 0) {
