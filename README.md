@@ -40,3 +40,5 @@
 6. Template Strings<BR>
    可以用變數直接加到字串內，不需要再用字串連接的方式了。<BR>
    https://babeljs.io/docs/learn-es2015/#template-strings
+
+7. Default Parameter
